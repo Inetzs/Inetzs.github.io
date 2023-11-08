@@ -1,0 +1,23 @@
+p {
+    background: #ffd9d9;
+    border-bottom: 4px solid red;
+    padding-top: 15px;
+    margin: -10px;
+    display: flex;
+    width: auto;
+    height: 35px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#msg {
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#error {
+    color: #ff1111;
+    font-weight: bold;
+    font-size: 12px;
+}
