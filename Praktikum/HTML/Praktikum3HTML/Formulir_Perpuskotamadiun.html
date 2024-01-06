@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Formulir Perpuskota Madiun</title>
+</head>
+<body>
+
+  <h1>Formulir Perpuskota Madiun</h1>
+
+  <form action="Formulir_Perpuskotamadiun.html" method="post">
+
+    <label for="nama">Nama</label>
+    <input type="text" name="nama" id="nama" required>
+
+    <label for="alamat">Alamat</label>
+    <input type="text" name="alamat" id="alamat" required>
+
+    <label for="no_telp">Nomor Telepon</label>
+    <input type="number" name="no_telp" id="no_telp" required>
+
+    <label for="jenis_anggota">Jenis Anggota</label>
+    <select name="jenis_anggota" id="jenis_anggota">
+      <option value="Dewasa">Dewasa</option>
+      <option value="Remaja">Remaja</option>
+      <option value="Anak-anak">Anak-anak</option>
+    </select>
+
+    <label for="lama_pinjam">Lama Pinjam</label>
+    <select name="lama_pinjam" id="lama_pinjam">
+      <option value="1 minggu">1 minggu</option>
+      <option value="2 minggu">2 minggu</option>
+      <option value="3 minggu">3 minggu</option>
+    </select>
+
+    <input type="submit" value="Kirim">
+
+  </form>
+
+</body>
+</html>

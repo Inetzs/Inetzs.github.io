@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Membuat Form</title>
+</head>
+<body>
+    <form action="formulir.html" method="get">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" value="Nama Kamu">
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki" checked>
+        <label for="laki-laki">Laki-laki</label>
+
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label>
+        <br>
+
+        <label>Hobi:</label>
+        <input type="checkbox" id="hobi_baca" name="hobi_baca">
+        <label for="hobi_baca">Membaca Buku</label>
+
+        <input type="checkbox" id="hobi_nulis" name="hobi_nulis">
+        <label for="hobi_nulis">Menulis</label>
+
+        <input type="checkbox" id="hobi_mancing" name="hobi_mancing">
+        <label for="hobi_mancing">Memancing</label>
+        <br>
+
+        <label for="asal_kota">Asal Kota:</label>
+        <select id="asal_kota" name="asal_kota">
+            <option value="Kota Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Kota Semarang">Semarang</option>
+        </select>
+        <br>
+
+        <label for="komentar">Komentar anda:</label>
+        <textarea id="komentar" name="komentar" rows="5" cols="20">Silahkan Katakan isi Hati anda</textarea>
+        <br>
+
+        <input type="submit" value="Mulai Proses!">
+    </form>
+</body>
+</html>

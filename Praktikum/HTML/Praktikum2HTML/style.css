@@ -1,0 +1,38 @@
+nav {
+    background: #c9bfbf;
+    grid-area: nav;
+}
+
+header {
+    background: #707070;
+    grid-area: header;
+    text-align: center;
+}
+
+section {
+    background: #707070;
+    grid-area: section;
+}
+footer {
+    background: #707070;
+    grid-area: footer;
+    font-size: small;
+    text-align: center;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav section section"
+    "footer footer footer";
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-columns: 20% 1fr 18%;
+    grid-gap: 5px;
+    height: 100vh;
+    margin: 10px;
+}
+
+header, nav, section, footer {
+    padding: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Formulir Klinik Sehat</title>
+</head>
+<body>
+
+  <h1>Formulir Klinik Sehat</h1>
+
+  <form action="Formulir_Kliniksehat.html" method="post">
+
+    <label for="nama">Nama</label>
+    <input type="text" name="nama" id="nama" required>
+
+    <label for="usia">Usia</label>
+    <input type="number" name="usia" id="usia" required>
+
+    <label for="jenis_kelamin">Jenis Kelamin</label>
+    <select name="jenis_kelamin" id="jenis_kelamin">
+      <option value="Laki-laki">Laki-laki</option>
+      <option value="Perempuan">Perempuan</option>
+    </select>
+
+    <label for="keluhan">Keluhan</label>
+    <textarea name="keluhan" id="keluhan" required></textarea>
+
+    <input type="submit" value="Kirim">
+
+  </form>
+
+</body>
+</html>
